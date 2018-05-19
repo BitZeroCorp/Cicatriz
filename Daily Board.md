@@ -1,0 +1,5 @@
+## Daily Board - Cicatriz
+Olá! Esse arquivo será utilizado para resumir todo o progresso feito para facilitar na documentação final. Espero que seja útil tanto para mim quanto para vocês. Obrigado pela visita e o mais importante: *havin' fun!*
+
+### 1ª semana (under construction): 
+Após um brainstorm sobre o projeto como um todo, decidimos o ponto de partida, o nome e desenhamos uma logo (temporária ou não) para irmos acostumando com a identidade visual. Comecei uma pesquisa sobre o React Native ~tecnologia que já havia me interessado antes~ através do [tutorial oficial](https://facebook.github.io/react-native/docs/getting-started.html) disponível. Dessa vez estou desenvolvendo inteiramente no Windows 10 por conta do alto desempenho que tenho na criação de aplicativos mobile. Meu primeiro desafio é criar um aplicativo para mobile onde consiga interagir com o raspberry dentro da mesma rede de dados. Mãos a obra!
