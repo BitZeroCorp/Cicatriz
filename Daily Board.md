@@ -22,4 +22,4 @@ Essa semana tem sido massante no aspecto técnico, então acompanhem comigo:<br>
 * [Android Studio](https://developer.android.com/studio/?hl=pt-br) - já vem com as dependências todas;
 * [Genymotion](https://www.genymotion.com/) - mais leve que o Android Studio.. testei no Linux e gostei mais dele;
 
-Configurei o React Native através [tutorial](https://facebook.github.io/react-native/docs/getting-started.html) oficial clicando na aba *"Building Projects with Native Code"*.<br>
+Configurei o React Native através desse [tutorial](https://facebook.github.io/react-native/docs/getting-started.html) oficial clicando na aba *"Building Projects with Native Code"*.<br>
