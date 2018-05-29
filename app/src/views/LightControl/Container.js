@@ -38,7 +38,7 @@ const enhance = compose(
         const { hour, minute } = await TimePickerAndroid.open({
           hour: 14,
           minute: 0,
-          is24Hour: false, // Will display '2 PM'
+          is24Hour: false,
         });
         console.log('time ->', { ...props.time, [type]: { hour, minute } });
         props.setTime({ ...props.time, [type]: { hour, minute } });
