@@ -23,3 +23,25 @@ Essa semana tem sido massante no aspecto técnico, então acompanhem comigo:<br>
 * [Genymotion](https://www.genymotion.com/) - mais leve que o Android Studio.. testei no Linux e gostei mais dele;
 
 Configurei o React Native através desse [tutorial](https://facebook.github.io/react-native/docs/getting-started.html) oficial clicando na aba *"Building Projects with Native Code"*.<br>
+Passei essa semana mais arrumando os notebooks (problema de reconhecimento de video no Windows que tive que abrir e limpar tudo e no Linux nova formatação...) e por conta ~do péssimo serviço de internet~ da instabilidade na rede, ficou bem complicado render muito. <br>
+No Raspberry Pi eu já configurei o servidor para receber as informações do aplicativo. Supondo que você já tenha feito a configuração básica, vou partir pros códigos.<br><br>
+
+**Com o terminal aberto:**<br>
+Verifique se o NodeJS está instalado utilizando `node -v` no terminal. Caso retorne uma mensagem de erro, instale dessa forma:<br>
+`$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -` Versão 10.x<br>
+OU <br>
+`$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -` Versão 8.x Stable<br>
+`$ sudo apt install -y nodejs`<br><br>
+
+A partir do Node, vamos instalar um pacote do chamado [ExpressJS](https://www.npmjs.com/package/express-generator). Faremos isso dentro do próprio Node com o comando `sudo npm install -g express-generator`. Esse pacote serve justamente para comunicar os códigos Javascript do Aplicativo Mobile com o Raspberry Pi.<br><br>
+
+Precisamos, também, de uma biblioteca que controle os GPIO's do nosso Raspberry. E adivinhe: o Node tem uma para isso! Instale a partir do comando `sudo npm install -g onoff`. <br><br>
+
+
+A última dependência que nosso servidor precisa é a de poder ser executado sempre que o Raspberry ligar, sem necessidade de entrar via SSH ou outra forma para digitar o comando no terminal. E aqui vamos nós com mais uma biblioteca do Node no comando `sudo npm install -g forever`. <br><br>
+
+Caso a instalação de alguma das bibliotecas acima de problema, adicione a tag `--unsafe-perm` antes da tag `-g`.<br><br>
+
+
+
+
