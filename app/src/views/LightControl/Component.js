@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { Button, Header } from 'react-native-elements';
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -94,10 +93,10 @@ const LightControl = ({ onPress, onSelectDate, time }) => (
   </View>
 );
 
-
 LightControl.propTypes = {
   onPress: PropTypes.func.isRequired,
   onSelectDate: PropTypes.func.isRequired,
   time: PropTypes.object.isRequired,
 };
+
 export default LightControl;
