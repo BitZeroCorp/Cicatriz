@@ -40,7 +40,7 @@ Precisamos, também, de uma biblioteca que controle os GPIO's do nosso Raspberry
 
 A última dependência que nosso servidor precisa é a de poder ser executado sempre que o Raspberry ligar, sem necessidade de entrar via SSH ou outra forma para digitar o comando no terminal. E aqui vamos nós com mais uma biblioteca do Node no comando `sudo npm install -g forever`. <br><br>
 
-Caso a instalação de alguma das bibliotecas acima de problema, adicione a tag `--unsafe-perm` antes da tag `-g`.<br><br>
+Caso a instalação de alguma das bibliotecas acima dê problema, adicione a tag `--unsafe-perm` antes da tag `-g`.<br><br>
 
 
 
