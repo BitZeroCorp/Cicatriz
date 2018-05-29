@@ -1,7 +1,6 @@
 const BASE_URL = 'http://{IP.DO.SEU.RASPBERRY.NA.REDE}:3000/api/v1/';
-
+//script clonado de https://apiko.com/blog/how-to-build-home-automation-app-with-raspberry-pi-and-javascript
 class Api {
-
 
 /**
 * Base call api methods with auth header. Can be extended via params
