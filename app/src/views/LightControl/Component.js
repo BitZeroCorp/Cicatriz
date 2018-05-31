@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { Button, Header } from 'react-native-elements';
+import { Button } from 'react-native-elements';
 
 const styles = StyleSheet.create({
   container: {
