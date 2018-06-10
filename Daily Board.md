@@ -13,7 +13,7 @@ EDIT 2: confundi as datas e não possuo prova nenhuma, apenas alguns trabalhos. 
 <br>
 <br>
 
-### 2ª semana (under construction):
+### 2ª semana:
 Essa semana tem sido massante no aspecto técnico, então acompanhem comigo:<br><br>
 **O que utilizei no Windows:**
 * [Cmder](http://cmder.net/) - prompt sucks, cmder rules;
@@ -42,6 +42,7 @@ A última dependência que nosso servidor precisa é a de poder ser executado se
 
 Caso a instalação de alguma das bibliotecas acima dê problema, adicione a tag `--unsafe-perm` antes da tag `-g`.<br><br>
 
-
+### system("pause"):<br>
+Pessoal, me  desculpem. Tive uma série de problemas pessoais que me afastaram do projeto. Retomarei ele em breve com mais detalhes. ♥
 
 
